@@ -10,9 +10,8 @@ stages {
     steps
       sh 'echo "This is my Test step"'
     }
-  }
-  stage('Deploy') {
-    steps {
+    stage('Deploy') {
+      steps {
       sh 'echo "This is my Deploy step"'
     }
   }
