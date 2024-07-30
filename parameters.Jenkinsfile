@@ -2,16 +2,18 @@ pipeline{
     agent any
     stages{
         stage('Build'){
-            steps
+            steps{
                 sh 'echo "This is my first step"'
             }
         }
         stage('Test'){
-            steps
+            steps{
             sh 'echo "This is my Test step"'
         }
+        }
         stage('Deploy'){
-            steps
+            steps{
             sh 'echo"This is my Deploy step"'
+        }
         }
     }
