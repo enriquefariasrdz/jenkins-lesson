@@ -5,6 +5,7 @@ def repeat(val, x=10){
 }
 
 pipeline{
+    agent any
 stages {
   stage('Build') {
     steps {
