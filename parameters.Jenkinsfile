@@ -4,6 +4,7 @@ def repeat(val, x=10){
   }
 }
 
+pipeline{
 stages {
   stage('Build') {
     steps {
