@@ -15,7 +15,7 @@ pipeline {
                     cat build/computer.txt
                     echo "Keyboard" >> build/computer.txt
                     cat build/computer.txt
-                    rm build/computer.txt
+                    #rm build/computer.txt
                 '''
             }
         }
