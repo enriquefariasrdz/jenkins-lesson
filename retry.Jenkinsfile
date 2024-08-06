@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages{
-        stage('Build')
+        stage('Build'){
         steps{
             retry(3){
                 echo "before throwing error"
@@ -11,4 +11,5 @@ pipeline {
             echo "after retry(3)"
         }
     }
+}
 }
