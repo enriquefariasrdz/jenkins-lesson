@@ -1,5 +1,5 @@
 pipeline {
-    agent TKE-efarias
+    agent  { label 'master' }
     stages{
         stage("Stage One"){
             steps{
